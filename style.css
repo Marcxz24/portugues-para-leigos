@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #a0adb1;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+.container-comeco {
+    width: 95%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #b7bdbe;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px -2px 5px #333232;
+    height: auto;
+    overflow-y: auto;
+    font-weight: bold;
+}
+
+.container-comeco h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.8em;
+}
+
+.container-comeco p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.credenciais {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 10px 0;
+    font-size: 0.8em;
+    z-index: 1000;
+}
+
+@media (max-width: 600px) {
+    .container-comeco {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .container-comeco h1 {
+        font-size: 1.5em;
+    }
+
+    .container-comeco p {
+        font-size: 0.9em;
+    }
+
+}
